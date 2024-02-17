@@ -107,7 +107,7 @@ Et aussi vérifier que les chemins des vers SPARK_HOME, JAVA_HOME et PYSPARK_SUB
 On peut enfin lancer les codes dans l'ordre suivant : kafka_project.py et ensuite spark.py
 Pour ce faire, on peut ouvrir deux nouvelles fenêtre de terminale et entrer dans la première :
 
-    python kafka_project.py
+    python kafka_projet.py
 Et dans la deuxième :
 
     python spark.py
