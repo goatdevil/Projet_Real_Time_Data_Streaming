@@ -1,5 +1,5 @@
 import os
-os.environ["SPARK_HOME"] = "/workspaces/Real_Time_Data_Streaming/spark-3.2.3-bin-hadoop2.7"
+os.environ["SPARK_HOME"] = "/workspaces/Projet_Real_Time_Data_Streaming/spark-3.2.3-bin-hadoop2.7"
 os.environ['PYSPARK_SUBMIT_ARGS'] = '--jars /workspaces/Real_Time_Data_Streaming/spark-streaming-kafka-0-10-assembly_2.12-3.2.3.jar pyspark-shell'
 os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-11-openjdk-amd64"
 import findspark
