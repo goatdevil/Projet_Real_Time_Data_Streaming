@@ -58,7 +58,7 @@ Comme tout à l'heure, il faut ensuite extraire le fichier du dossier .tgz avec 
 On doit ensuite ajouter les variables d'environnement pour Spark dans `~/.bashrc` :
 
     export SPARK_HOME=/workspaces/real_time_data_streaming/spark-3.2.3-bin-hadoop2.7
-`export PATH=$SPARK_HOME/bin:$PATH`
+    export PATH=$SPARK_HOME/bin:$PATH`
 
 On applique les changements avec : `source ~/.bashrc`
 
