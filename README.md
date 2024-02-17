@@ -15,7 +15,7 @@ Pour installer java, aller dans votre invité de commande et taper :
 Cela mettra à jour la liste des paquets disponibles dans les dépôts de logiciels configurés sur votre système. 
 Puis entrer la commande suivante pour installer Java.
 
-    sudo apt-get install openjdk-11-jdk_headless -qq
+    sudo apt-get install openjdk-11-jdk-headless -qq
 
 Il faut maintenant Java aux variables d'environnement. Pour ce faire, il faut ouvrir le fichier ~/.bashrc avec la commande nano :
 
