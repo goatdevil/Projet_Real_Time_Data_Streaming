@@ -57,8 +57,8 @@ Comme tout à l'heure, il faut ensuite extraire le fichier du dossier .tgz avec 
 
 On doit ensuite ajouter les variables d'environnement pour Spark dans `~/.bashrc` :
 
-    export SPARK_HOME=/workspaces/real_time_data_streaming/spark-3.2.3-bin-hadoop2.7
-    export PATH=$SPARK_HOME/bin:$PATH`
+    export SPARK_HOME=/workspaces/Projet_Real_Time_Data_Streaming/spark-3.2.3-bin-hadoop2.7
+    export PATH=$SPARK_HOME/bin:$PATH
 
 On applique les changements avec : `source ~/.bashrc`
 
@@ -95,7 +95,7 @@ Pour créer les topics, il faut rentrer les commandes dans une troisième fenêt
     ./kafka_2.12-2.6.0/bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic velib-projet
 et
 
-    ./kafka/kafka_2.12-2.6.0/bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic velib-projet-final-data
+    ./kafka_2.12-2.6.0/bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic velib-projet-final-data
 
 ## Lancement des codes python
 
